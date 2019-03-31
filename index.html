@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--odwołanie do stylu-->
+    <link rel="stylesheet" href="style.css">
+    <!--odwołanie do bibliotek jqery i google fonts-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Lobster" rel="stylesheet">
+    <title>CHECKLISTA</title>
+    <p><script> document.write(new Date().toLocaleDateString()); </script></p>
+  </head>
+  <body>
+  	<h1>CHECKLISTA</h1>
+    <h2>Dodaj taski:</h2>
+    <div class="container">
+       <form  action="#">
+        <!--pole do wpisywania tasków-->
+        <input type="text" name="item" id="item" placeholder="Dodaj zadanie..." />
+    </form>  
+    <!--lista tasków-->
+    <ul id="list"></ul>
+    </div>
+    <!--odwołanie do scryptu javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
